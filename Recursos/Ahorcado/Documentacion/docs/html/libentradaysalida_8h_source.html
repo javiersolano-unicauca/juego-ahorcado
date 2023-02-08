@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Fichero Fuente Ahorcado/Headers/libentradaysalida.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_62e8fbae76201fe23b37ae5da2767c6a.html">Headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">libentradaysalida.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="libentradaysalida_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LIBENTRADAYSALIDA_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define LIBENTRADAYSALIDA_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Autor: javiersolanop</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a8464c122336a0362f1dc9e23b9090184">imprimirCadena</a>(<span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a602eadd478e864f03438e18bc93aab95">imprimirCadenaConNumeroEntero</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">int</span> prmNumero);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a9f029170ff53dc44360458b99d42ccd0">imprimirCadenaConNumeroDouble</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">double</span> prmNumero);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#afc49342ddb86059f4c63e4a11175f808">imprimirCadenaConSalto</a>(<span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a377d4093fc680512facf2e6cb5f0a097">imprimirCaracter</a>(<span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a03416a8133802a2752af00e93aaab7d9">imprimirCaracterConSalto</a>(<span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a7be3e690b45b4e4e6f74f8c5ba72d462">imprimirCaracterEspecial</a>(<span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a6be5fbbfe971979a854e68c70f26ea94">imprimirCaracterEspecialConSalto</a>(<span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#ad757d433f84019f3e1673435d602e2f9">imprimirCadenaEspecial</a>(<span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a02d2ca483fce9f57a26acc20f3b492fd">imprimirCadenaEspecialConSalto</a>(<span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a6514e9b0405fa80f28d607864ea23d64">imprimirCaracterJustificado</a>(<span class="keywordtype">int</span> prmCantEspacios, <span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#adef38f8ca04024cdb703fce9a29d4c37">imprimirCadenaJustificada</a>(<span class="keywordtype">int</span> prmCantEspacios, <span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="libentradaysalida_8h.html#a6e40c670c8c047c0b0cf1154580d16a4">  106</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a6e40c670c8c047c0b0cf1154580d16a4">imprimirMensaje</a>(<span class="keywordtype">char</span> *prmMensaje);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a0d2c441e01572871277745b77a52d2e2">imprimirNumeroEntero</a>(<span class="keywordtype">int</span> prmNumero);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a54168ba997f3448de5f609307d01104f">imprimirNumeroDouble</a>(<span class="keywordtype">double</span> prmNumero);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#aeffad0bed311311a1a3b674545284a2e">recibirCadena</a>(<span class="keywordtype">char</span> *prmEtiqueta, <span class="keywordtype">char</span> *prmDireccion);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="keywordtype">char</span> <a class="code hl_function" href="libentradaysalida_8h.html#a3579483c71e413a67a0f13a6d8c744fd">recibirCaracter</a>(<span class="keywordtype">char</span> *prmEtiqueta);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#afac88844ba06e3ede325427f2dc31cb0">recibirDatoEntero</a>(<span class="keywordtype">char</span> *prmEtiqueta, <span class="keywordtype">int</span> *prmDireccion);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#ab7f968a4eff0c5bfdd5bc4e4a7d66917">recibirDatoDouble</a>(<span class="keywordtype">char</span> *prmEtiqueta, <span class="keywordtype">double</span> *prmDireccion);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#ad89299b790e9becb7a2ef3d1763ec5d3">limpiarConsola</a>();</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a4e2140c763b66d012a545e53c97b2c68">pausarPrograma</a>();</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="keywordtype">void</span> <a class="code hl_function" href="libentradaysalida_8h.html#a040815c7533bd23dd206626f6b9f9ba2">finalizarPrograma</a>();</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a02d2ca483fce9f57a26acc20f3b492fd"><div class="ttname"><a href="libentradaysalida_8h.html#a02d2ca483fce9f57a26acc20f3b492fd">imprimirCadenaEspecialConSalto</a></div><div class="ttdeci">void imprimirCadenaEspecialConSalto(char *prmCadena)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char' con caracteres ASCII que no son imprimible...</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:79</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a03416a8133802a2752af00e93aaab7d9"><div class="ttname"><a href="libentradaysalida_8h.html#a03416a8133802a2752af00e93aaab7d9">imprimirCaracterConSalto</a></div><div class="ttdeci">void imprimirCaracterConSalto(char prmCaracter)</div><div class="ttdoc">Funcion para imprimir en consola un caracter con salto de linea.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:51</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a040815c7533bd23dd206626f6b9f9ba2"><div class="ttname"><a href="libentradaysalida_8h.html#a040815c7533bd23dd206626f6b9f9ba2">finalizarPrograma</a></div><div class="ttdeci">void finalizarPrograma()</div><div class="ttdoc">Funcion para finalizar la ejecucion del programa.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:158</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a0d2c441e01572871277745b77a52d2e2"><div class="ttname"><a href="libentradaysalida_8h.html#a0d2c441e01572871277745b77a52d2e2">imprimirNumeroEntero</a></div><div class="ttdeci">void imprimirNumeroEntero(int prmNumero)</div><div class="ttdoc">Funcion para imprimir en consola un numero entero.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:112</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a3579483c71e413a67a0f13a6d8c744fd"><div class="ttname"><a href="libentradaysalida_8h.html#a3579483c71e413a67a0f13a6d8c744fd">recibirCaracter</a></div><div class="ttdeci">char recibirCaracter(char *prmEtiqueta)</div><div class="ttdoc">Funcion para recibir un caracter por consola.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:128</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a377d4093fc680512facf2e6cb5f0a097"><div class="ttname"><a href="libentradaysalida_8h.html#a377d4093fc680512facf2e6cb5f0a097">imprimirCaracter</a></div><div class="ttdeci">void imprimirCaracter(char prmCaracter)</div><div class="ttdoc">Funcion para imprimir en consola un caracter.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:46</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a4e2140c763b66d012a545e53c97b2c68"><div class="ttname"><a href="libentradaysalida_8h.html#a4e2140c763b66d012a545e53c97b2c68">pausarPrograma</a></div><div class="ttdeci">void pausarPrograma()</div><div class="ttdoc">Funcion para pausar la ejecucion del programa.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:153</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a54168ba997f3448de5f609307d01104f"><div class="ttname"><a href="libentradaysalida_8h.html#a54168ba997f3448de5f609307d01104f">imprimirNumeroDouble</a></div><div class="ttdeci">void imprimirNumeroDouble(double prmNumero)</div><div class="ttdoc">Funcion para imprimir en consola un numero double.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:117</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a602eadd478e864f03438e18bc93aab95"><div class="ttname"><a href="libentradaysalida_8h.html#a602eadd478e864f03438e18bc93aab95">imprimirCadenaConNumeroEntero</a></div><div class="ttdeci">void imprimirCadenaConNumeroEntero(char *prmCadena, int prmNumero)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char' y un numero entero.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:16</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a6514e9b0405fa80f28d607864ea23d64"><div class="ttname"><a href="libentradaysalida_8h.html#a6514e9b0405fa80f28d607864ea23d64">imprimirCaracterJustificado</a></div><div class="ttdeci">void imprimirCaracterJustificado(int prmCantEspacios, char prmCaracter)</div><div class="ttdoc">Funcion para imprimir en consola un caracter con espacio inicial.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:90</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a6be5fbbfe971979a854e68c70f26ea94"><div class="ttname"><a href="libentradaysalida_8h.html#a6be5fbbfe971979a854e68c70f26ea94">imprimirCaracterEspecialConSalto</a></div><div class="ttdeci">void imprimirCaracterEspecialConSalto(char prmCaracter)</div><div class="ttdoc">Funcion para imprimir en consola un caracter ASCII que no es imprimible. Adicionando un salto de line...</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:62</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a6e40c670c8c047c0b0cf1154580d16a4"><div class="ttname"><a href="libentradaysalida_8h.html#a6e40c670c8c047c0b0cf1154580d16a4">imprimirMensaje</a></div><div class="ttdeci">void imprimirMensaje(char *prmMensaje)</div><div class="ttdoc">Funcion para imprimir un mensaje en consola. Emplea salto de linea inicial y final.</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a7be3e690b45b4e4e6f74f8c5ba72d462"><div class="ttname"><a href="libentradaysalida_8h.html#a7be3e690b45b4e4e6f74f8c5ba72d462">imprimirCaracterEspecial</a></div><div class="ttdeci">void imprimirCaracterEspecial(char prmCaracter)</div><div class="ttdoc">Funcion para imprimir en consola un caracter ASCII que no es imprimible.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:56</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a8464c122336a0362f1dc9e23b9090184"><div class="ttname"><a href="libentradaysalida_8h.html#a8464c122336a0362f1dc9e23b9090184">imprimirCadena</a></div><div class="ttdeci">void imprimirCadena(char *prmCadena)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:7</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_a9f029170ff53dc44360458b99d42ccd0"><div class="ttname"><a href="libentradaysalida_8h.html#a9f029170ff53dc44360458b99d42ccd0">imprimirCadenaConNumeroDouble</a></div><div class="ttdeci">void imprimirCadenaConNumeroDouble(char *prmCadena, double prmNumero)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char' y un numero double.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:26</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_ab7f968a4eff0c5bfdd5bc4e4a7d66917"><div class="ttname"><a href="libentradaysalida_8h.html#ab7f968a4eff0c5bfdd5bc4e4a7d66917">recibirDatoDouble</a></div><div class="ttdeci">void recibirDatoDouble(char *prmEtiqueta, double *prmDireccion)</div><div class="ttdoc">Funcion para recibir datos de tipo double por consola.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:142</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_ad757d433f84019f3e1673435d602e2f9"><div class="ttname"><a href="libentradaysalida_8h.html#ad757d433f84019f3e1673435d602e2f9">imprimirCadenaEspecial</a></div><div class="ttdeci">void imprimirCadenaEspecial(char *prmCadena)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char' con caracteres ASCII que no son imprimible...</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:68</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_ad89299b790e9becb7a2ef3d1763ec5d3"><div class="ttname"><a href="libentradaysalida_8h.html#ad89299b790e9becb7a2ef3d1763ec5d3">limpiarConsola</a></div><div class="ttdeci">void limpiarConsola()</div><div class="ttdoc">Funcion para limpiar la consola.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:148</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_adef38f8ca04024cdb703fce9a29d4c37"><div class="ttname"><a href="libentradaysalida_8h.html#adef38f8ca04024cdb703fce9a29d4c37">imprimirCadenaJustificada</a></div><div class="ttdeci">void imprimirCadenaJustificada(int prmCantEspacios, char *prmCadena)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char' con espacio inicial.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:101</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_aeffad0bed311311a1a3b674545284a2e"><div class="ttname"><a href="libentradaysalida_8h.html#aeffad0bed311311a1a3b674545284a2e">recibirCadena</a></div><div class="ttdeci">void recibirCadena(char *prmEtiqueta, char *prmDireccion)</div><div class="ttdoc">Funcion para recibir un arreglo de tipo 'char' por consola.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:122</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_afac88844ba06e3ede325427f2dc31cb0"><div class="ttname"><a href="libentradaysalida_8h.html#afac88844ba06e3ede325427f2dc31cb0">recibirDatoEntero</a></div><div class="ttdeci">void recibirDatoEntero(char *prmEtiqueta, int *prmDireccion)</div><div class="ttdoc">Funcion para recibir datos de tipo entero por consola.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:136</div></div>
+<div class="ttc" id="alibentradaysalida_8h_html_afc49342ddb86059f4c63e4a11175f808"><div class="ttname"><a href="libentradaysalida_8h.html#afc49342ddb86059f4c63e4a11175f808">imprimirCadenaConSalto</a></div><div class="ttdeci">void imprimirCadenaConSalto(char *prmCadena)</div><div class="ttdoc">Funcion para imprimir en consola un arreglo de tipo 'char' con salto de linea.</div><div class="ttdef"><b>Definition:</b> libentradaysalida.c:36</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

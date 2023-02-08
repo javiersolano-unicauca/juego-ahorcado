@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Fichero Fuente Ahorcado/Headers/libmenu.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_62e8fbae76201fe23b37ae5da2767c6a.html">Headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">libmenu.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="libmenu_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LIBMENU_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define LIBMENU_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Autor: javiersolanop</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">char</span>** <a class="code hl_function" href="libmenu_8h.html#a74c4f9b08255263c8f7cec6d3727bc6a">definirMenu</a>(<span class="keywordtype">int</span> prmCantItems);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> <a class="code hl_function" href="libmenu_8h.html#acc1148e0f5c29b1d4adb5e4abafff0af">establecerTituloMenu</a>(<span class="keywordtype">char</span> **prmMenu, <span class="keywordtype">char</span> *prmTitulo);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">void</span> <a class="code hl_function" href="libmenu_8h.html#a7fd55300cd62fff204f30fbc03d7abab">aniadirItemMenu</a>(<span class="keywordtype">char</span> **prmMenu, <span class="keywordtype">int</span> prmOpcion, <span class="keywordtype">char</span> *prmItem);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">void</span> <a class="code hl_function" href="libmenu_8h.html#a1a4ec022b49447375c92b533f54701b3">imprimirMenu</a>(<span class="keywordtype">char</span> **prmMenu, <span class="keywordtype">int</span> prmCantItems);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">void</span> <a class="code hl_function" href="libmenu_8h.html#ad5e0bbb91dcc486c5ab2cf8505fc847c">liberarMenu</a>(<span class="keywordtype">char</span> **prmApuntador, <span class="keywordtype">int</span> prmCantItems);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alibmenu_8h_html_a1a4ec022b49447375c92b533f54701b3"><div class="ttname"><a href="libmenu_8h.html#a1a4ec022b49447375c92b533f54701b3">imprimirMenu</a></div><div class="ttdeci">void imprimirMenu(char **prmMenu, int prmCantItems)</div><div class="ttdoc">Funcion para imprimir el menu.</div><div class="ttdef"><b>Definition:</b> libmenu.c:18</div></div>
+<div class="ttc" id="alibmenu_8h_html_a74c4f9b08255263c8f7cec6d3727bc6a"><div class="ttname"><a href="libmenu_8h.html#a74c4f9b08255263c8f7cec6d3727bc6a">definirMenu</a></div><div class="ttdeci">char ** definirMenu(int prmCantItems)</div><div class="ttdoc">Funcion para definir el menu.</div><div class="ttdef"><b>Definition:</b> libmenu.c:3</div></div>
+<div class="ttc" id="alibmenu_8h_html_a7fd55300cd62fff204f30fbc03d7abab"><div class="ttname"><a href="libmenu_8h.html#a7fd55300cd62fff204f30fbc03d7abab">aniadirItemMenu</a></div><div class="ttdeci">void aniadirItemMenu(char **prmMenu, int prmOpcion, char *prmItem)</div><div class="ttdoc">Funcion para aniadir un item.</div><div class="ttdef"><b>Definition:</b> libmenu.c:13</div></div>
+<div class="ttc" id="alibmenu_8h_html_acc1148e0f5c29b1d4adb5e4abafff0af"><div class="ttname"><a href="libmenu_8h.html#acc1148e0f5c29b1d4adb5e4abafff0af">establecerTituloMenu</a></div><div class="ttdeci">void establecerTituloMenu(char **prmMenu, char *prmTitulo)</div><div class="ttdoc">Funcion para establecer el titulo.</div><div class="ttdef"><b>Definition:</b> libmenu.c:8</div></div>
+<div class="ttc" id="alibmenu_8h_html_ad5e0bbb91dcc486c5ab2cf8505fc847c"><div class="ttname"><a href="libmenu_8h.html#ad5e0bbb91dcc486c5ab2cf8505fc847c">liberarMenu</a></div><div class="ttdeci">void liberarMenu(char **prmApuntador, int prmCantItems)</div><div class="ttdoc">Funcion para liberar el espacio en memoria de un menu.</div><div class="ttdef"><b>Definition:</b> libmenu.c:30</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

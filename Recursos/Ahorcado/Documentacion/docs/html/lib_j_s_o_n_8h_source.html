@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Fichero Fuente Ahorcado/Headers/libJSON.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_62e8fbae76201fe23b37ae5da2767c6a.html">Headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">libJSON.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="lib_j_s_o_n_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LIBJSON_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define LIBJSON_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Autor: javiersolanop</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_j_s_o_n_8h.html#a1b98683932f08bbde01ab2c706d28403">crearColeccion</a>(<span class="keywordtype">char</span> *prmNombre);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keywordtype">int</span> <a class="code hl_function" href="lib_j_s_o_n_8h.html#ab2019512e00d0cf403bfcca2fdb0058a">obtenerContenidoColeccion</a>(<span class="keywordtype">char</span> *prmColeccion, <span class="keywordtype">char</span> **prmApuntadorDeApuntadorCadena);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keywordtype">int</span> <a class="code hl_function" href="lib_j_s_o_n_8h.html#addaceff977cfc24d07375e3287f48edc">obtenerTamanioColeccion</a>(<span class="keywordtype">char</span> *prmColeccion);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keywordtype">char</span>**** <a class="code hl_function" href="lib_j_s_o_n_8h.html#a61b90e6db75fa219353c73c114e60859">obtenerColeccion</a>(<span class="keywordtype">char</span> *prmColeccion);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_j_s_o_n_8h.html#aeaa82fbc556461d2609df4dd682e7694">aniadirDocumento</a>(<span class="keywordtype">char</span> *prmColeccion, <span class="keywordtype">char</span> ***prmMap, <span class="keywordtype">int</span> prmUltimoDocumento);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_j_s_o_n_8h.html#ab3bda2653846ca9b5b788ce9db9d679d">aniadirDocumentoAColeccion</a>(<span class="keywordtype">char</span> *prmColeccion, <span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">char</span>* <a class="code hl_function" href="lib_j_s_o_n_8h.html#a645143d916e9b7538709063bd22515d9">generarDocumento</a>(<span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_j_s_o_n_8h.html#a693fe0c0608b99ed89ae46165fd653aa">vaciarColeccion</a>(<span class="keywordtype">char</span> *prmColeccion);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_a1b98683932f08bbde01ab2c706d28403"><div class="ttname"><a href="lib_j_s_o_n_8h.html#a1b98683932f08bbde01ab2c706d28403">crearColeccion</a></div><div class="ttdeci">void crearColeccion(char *prmNombre)</div><div class="ttdoc">Funcion para crear una coleccion en formato 'JSON'.</div><div class="ttdef"><b>Definition:</b> libJSON.c:5</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_a61b90e6db75fa219353c73c114e60859"><div class="ttname"><a href="lib_j_s_o_n_8h.html#a61b90e6db75fa219353c73c114e60859">obtenerColeccion</a></div><div class="ttdeci">char **** obtenerColeccion(char *prmColeccion)</div><div class="ttdoc">Funcion para obtener los documentos de una coleccion.</div><div class="ttdef"><b>Definition:</b> libJSON.c:35</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_a645143d916e9b7538709063bd22515d9"><div class="ttname"><a href="lib_j_s_o_n_8h.html#a645143d916e9b7538709063bd22515d9">generarDocumento</a></div><div class="ttdeci">char * generarDocumento(char ***prmMap)</div><div class="ttdoc">Funcion para parsear un arreglo de tipo 'Map' en String de tipo 'JSON'.</div><div class="ttdef"><b>Definition:</b> libJSON.c:122</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_a693fe0c0608b99ed89ae46165fd653aa"><div class="ttname"><a href="lib_j_s_o_n_8h.html#a693fe0c0608b99ed89ae46165fd653aa">vaciarColeccion</a></div><div class="ttdeci">void vaciarColeccion(char *prmColeccion)</div><div class="ttdoc">Funcion para eliminar los documentos de una coleccion de tipo 'JSON'.</div><div class="ttdef"><b>Definition:</b> libJSON.c:148</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_ab2019512e00d0cf403bfcca2fdb0058a"><div class="ttname"><a href="lib_j_s_o_n_8h.html#ab2019512e00d0cf403bfcca2fdb0058a">obtenerContenidoColeccion</a></div><div class="ttdeci">int obtenerContenidoColeccion(char *prmColeccion, char **prmApuntadorDeApuntadorCadena)</div><div class="ttdoc">Funcion para obtener la matriz de lineas del archivo.</div><div class="ttdef"><b>Definition:</b> libJSON.c:15</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_ab3bda2653846ca9b5b788ce9db9d679d"><div class="ttname"><a href="lib_j_s_o_n_8h.html#ab3bda2653846ca9b5b788ce9db9d679d">aniadirDocumentoAColeccion</a></div><div class="ttdeci">void aniadirDocumentoAColeccion(char *prmColeccion, char ***prmMap)</div><div class="ttdoc">Funcion para aniadir un documento a una coleccion de tipo 'JSON'.</div><div class="ttdef"><b>Definition:</b> libJSON.c:106</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_addaceff977cfc24d07375e3287f48edc"><div class="ttname"><a href="lib_j_s_o_n_8h.html#addaceff977cfc24d07375e3287f48edc">obtenerTamanioColeccion</a></div><div class="ttdeci">int obtenerTamanioColeccion(char *prmColeccion)</div><div class="ttdoc">Funcion para obtener el tamanio de la coleccion.</div><div class="ttdef"><b>Definition:</b> libJSON.c:20</div></div>
+<div class="ttc" id="alib_j_s_o_n_8h_html_aeaa82fbc556461d2609df4dd682e7694"><div class="ttname"><a href="lib_j_s_o_n_8h.html#aeaa82fbc556461d2609df4dd682e7694">aniadirDocumento</a></div><div class="ttdeci">void aniadirDocumento(char *prmColeccion, char ***prmMap, int prmUltimoDocumento)</div><div class="ttdoc">Funcion para aniadir un documento en un archivo tipo 'JSON'.</div><div class="ttdef"><b>Definition:</b> libJSON.c:75</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

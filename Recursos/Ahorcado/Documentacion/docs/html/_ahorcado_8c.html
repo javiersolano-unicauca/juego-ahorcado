@@ -1,0 +1,507 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Referencia del Archivo Ahorcado/sources/Ahorcado.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_2ae85571844777ac2afa5926c7826fcb.html">sources</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">defines</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del Archivo Ahorcado.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_palabras_8c.html">./Palabras.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="libmenu_8c.html">./librerias/libmenu.c</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fig_ahorcado_8c.html">./figAhorcado.c</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+defines</h2></td></tr>
+<tr class="memitem:adfb2831c5047720d2da11aefefe6cde2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#adfb2831c5047720d2da11aefefe6cde2">INTENTOS</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:adfb2831c5047720d2da11aefefe6cde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13321ca88436ab9ca3916abc1da6e362"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a13321ca88436ab9ca3916abc1da6e362">TITULO</a>&#160;&#160;&#160;&quot;JUEGO DEL AHORCADO&quot;</td></tr>
+<tr class="separator:a13321ca88436ab9ca3916abc1da6e362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:a473624587e73af037cae039c56087cce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a473624587e73af037cae039c56087cce">validarRango</a> (int prmNumero, int prmRangoInicial, int prmRangoFinal)</td></tr>
+<tr class="memdesc:a473624587e73af037cae039c56087cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para validar un numero en un rango dado.  <br /></td></tr>
+<tr class="separator:a473624587e73af037cae039c56087cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7a12201e12fac97ed19de8da011a61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#acc7a12201e12fac97ed19de8da011a61">obtenerPalabraAleaotoria</a> (char ****prmPalabras, int prmCantPalabras, char *prmPalabraAleatoria)</td></tr>
+<tr class="memdesc:acc7a12201e12fac97ed19de8da011a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para obtener una palabra aleatoria de la coleccion de palabras.  <br /></td></tr>
+<tr class="separator:acc7a12201e12fac97ed19de8da011a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaec81a5985f39af1d6a36141024733b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#abaec81a5985f39af1d6a36141024733b">encriptarPalabra</a> (char *prmPalabra, char *prmPalabraEncriptada)</td></tr>
+<tr class="memdesc:abaec81a5985f39af1d6a36141024733b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para encriptar la palabra con que se juega.  <br /></td></tr>
+<tr class="separator:abaec81a5985f39af1d6a36141024733b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f26dad8339cab3a814aced9e53d5421"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a2f26dad8339cab3a814aced9e53d5421">validarCaracterJuegoAhorcado</a> (char *prmPalabraAleatoria, char *prmPalabraEncriptada, char prmCaracter)</td></tr>
+<tr class="memdesc:a2f26dad8339cab3a814aced9e53d5421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para validar si un caracter se encuentra en la palabra.  <br /></td></tr>
+<tr class="separator:a2f26dad8339cab3a814aced9e53d5421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af503ceb2a7873938e547ac0204259708"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#af503ceb2a7873938e547ac0204259708">validarPalabraCompletada</a> (char *prmPalabraAleatoria, char *prmPalabraEncriptada)</td></tr>
+<tr class="memdesc:af503ceb2a7873938e547ac0204259708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para validar si se ha completado la palabra del ahorcado.  <br /></td></tr>
+<tr class="separator:af503ceb2a7873938e547ac0204259708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23f5b422f04eb00e75e4f828734587a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#ae23f5b422f04eb00e75e4f828734587a">jugarAhorcado</a> (char *prmPalabraAleatoria, char *prmPalabraEncriptada)</td></tr>
+<tr class="memdesc:ae23f5b422f04eb00e75e4f828734587a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para jugar con la palabra aleatoria.  <br /></td></tr>
+<tr class="separator:ae23f5b422f04eb00e75e4f828734587a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ab86e7de662c319b44fc0972cb35cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a17ab86e7de662c319b44fc0972cb35cd">iniciarJuegoAhorcado</a> ()</td></tr>
+<tr class="memdesc:a17ab86e7de662c319b44fc0972cb35cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para iniciar la ejecucion del juego.  <br /></td></tr>
+<tr class="separator:a17ab86e7de662c319b44fc0972cb35cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38a9520af7b36db30fb61a80cbe4a261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a38a9520af7b36db30fb61a80cbe4a261">imprimirMenuAhorcado</a> ()</td></tr>
+<tr class="memdesc:a38a9520af7b36db30fb61a80cbe4a261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para imprimir el menu de opciones del juego.  <br /></td></tr>
+<tr class="separator:a38a9520af7b36db30fb61a80cbe4a261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a39b874329cc71e13005ff1c0121de2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a5a39b874329cc71e13005ff1c0121de2">recibirOpcion</a> (char *prmEtiqueta)</td></tr>
+<tr class="memdesc:a5a39b874329cc71e13005ff1c0121de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para recibir una opcion por consola.  <br /></td></tr>
+<tr class="separator:a5a39b874329cc71e13005ff1c0121de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36dc724ac0560555e84d362f34e9970"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#ae36dc724ac0560555e84d362f34e9970">aniadirPalabrasAhorcado</a> ()</td></tr>
+<tr class="memdesc:ae36dc724ac0560555e84d362f34e9970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para aniadir palabras a la coleccion.  <br /></td></tr>
+<tr class="separator:ae36dc724ac0560555e84d362f34e9970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bbf5ddff919d4f85b1a9aaa66ae6621"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_ahorcado_8c.html#a3bbf5ddff919d4f85b1a9aaa66ae6621">correrJuegoAhorcado</a> ()</td></tr>
+<tr class="memdesc:a3bbf5ddff919d4f85b1a9aaa66ae6621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion para correr la ejecucion del juego.  <br /></td></tr>
+<tr class="separator:a3bbf5ddff919d4f85b1a9aaa66ae6621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de los 'defines'</h2>
+<a id="adfb2831c5047720d2da11aefefe6cde2" name="adfb2831c5047720d2da11aefefe6cde2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfb2831c5047720d2da11aefefe6cde2">&#9670;&#160;</a></span>INTENTOS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define INTENTOS&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13321ca88436ab9ca3916abc1da6e362" name="a13321ca88436ab9ca3916abc1da6e362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13321ca88436ab9ca3916abc1da6e362">&#9670;&#160;</a></span>TITULO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TITULO&#160;&#160;&#160;&quot;JUEGO DEL AHORCADO&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones</h2>
+<a id="ae36dc724ac0560555e84d362f34e9970" name="ae36dc724ac0560555e84d362f34e9970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36dc724ac0560555e84d362f34e9970">&#9670;&#160;</a></span>aniadirPalabrasAhorcado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void aniadirPalabrasAhorcado </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para aniadir palabras a la coleccion. </p>
+
+</div>
+</div>
+<a id="a3bbf5ddff919d4f85b1a9aaa66ae6621" name="a3bbf5ddff919d4f85b1a9aaa66ae6621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bbf5ddff919d4f85b1a9aaa66ae6621">&#9670;&#160;</a></span>correrJuegoAhorcado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void correrJuegoAhorcado </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para correr la ejecucion del juego. </p>
+
+</div>
+</div>
+<a id="abaec81a5985f39af1d6a36141024733b" name="abaec81a5985f39af1d6a36141024733b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaec81a5985f39af1d6a36141024733b">&#9670;&#160;</a></span>encriptarPalabra()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void encriptarPalabra </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraEncriptada</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para encriptar la palabra con que se juega. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prmPalabra</td><td>recibe la palabra a encriptar. </td></tr>
+    <tr><td class="paramname">prmPalabraEncriptada</td><td>recibe el apuntador donde se guarda la palabra encriptada. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a38a9520af7b36db30fb61a80cbe4a261" name="a38a9520af7b36db30fb61a80cbe4a261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a9520af7b36db30fb61a80cbe4a261">&#9670;&#160;</a></span>imprimirMenuAhorcado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void imprimirMenuAhorcado </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para imprimir el menu de opciones del juego. </p>
+
+</div>
+</div>
+<a id="a17ab86e7de662c319b44fc0972cb35cd" name="a17ab86e7de662c319b44fc0972cb35cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ab86e7de662c319b44fc0972cb35cd">&#9670;&#160;</a></span>iniciarJuegoAhorcado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void iniciarJuegoAhorcado </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para iniciar la ejecucion del juego. </p>
+
+</div>
+</div>
+<a id="ae23f5b422f04eb00e75e4f828734587a" name="ae23f5b422f04eb00e75e4f828734587a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23f5b422f04eb00e75e4f828734587a">&#9670;&#160;</a></span>jugarAhorcado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void jugarAhorcado </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraAleatoria</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraEncriptada</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para jugar con la palabra aleatoria. </p>
+
+</div>
+</div>
+<a id="acc7a12201e12fac97ed19de8da011a61" name="acc7a12201e12fac97ed19de8da011a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc7a12201e12fac97ed19de8da011a61">&#9670;&#160;</a></span>obtenerPalabraAleaotoria()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obtenerPalabraAleaotoria </td>
+          <td>(</td>
+          <td class="paramtype">char ****&#160;</td>
+          <td class="paramname"><em>prmPalabras</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prmCantPalabras</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraAleatoria</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para obtener una palabra aleatoria de la coleccion de palabras. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prmPalabras</td><td>recibe la matriz de tipo 'Map' con las palabras. </td></tr>
+    <tr><td class="paramname">prmCantPalabras</td><td>recibe la cantidad de palabras con las que se juega. </td></tr>
+    <tr><td class="paramname">prmPalabraAleatoria</td><td>recibe el apuntador donde se guarda la palabra obtenida. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5a39b874329cc71e13005ff1c0121de2" name="a5a39b874329cc71e13005ff1c0121de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a39b874329cc71e13005ff1c0121de2">&#9670;&#160;</a></span>recibirOpcion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int recibirOpcion </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmEtiqueta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para recibir una opcion por consola. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prmEtiqueta</td><td>recibe la descripcion de la opcion a recibir.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>La opcion recibida. </dd></dl>
+
+</div>
+</div>
+<a id="a2f26dad8339cab3a814aced9e53d5421" name="a2f26dad8339cab3a814aced9e53d5421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f26dad8339cab3a814aced9e53d5421">&#9670;&#160;</a></span>validarCaracterJuegoAhorcado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int validarCaracterJuegoAhorcado </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraAleatoria</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraEncriptada</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>prmCaracter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para validar si un caracter se encuentra en la palabra. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prmPalabraAleatoria</td><td>recibe la palabra a validar. </td></tr>
+    <tr><td class="paramname">prmPalabraEncriptada</td><td>recibe la cadena a reemplazar por el caracter. </td></tr>
+    <tr><td class="paramname">prmCaracter</td><td>recibe el caracter a validar.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>1 si el caracter se encuentra en la palabra. 0 si no. </dd></dl>
+
+</div>
+</div>
+<a id="af503ceb2a7873938e547ac0204259708" name="af503ceb2a7873938e547ac0204259708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af503ceb2a7873938e547ac0204259708">&#9670;&#160;</a></span>validarPalabraCompletada()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int validarPalabraCompletada </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraAleatoria</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>prmPalabraEncriptada</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para validar si se ha completado la palabra del ahorcado. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prmPalabraAleatoria</td><td>recibe la palabra a validar. </td></tr>
+    <tr><td class="paramname">prmPalabraEncriptada</td><td>recibe la cadena a reemplazar por el caracter.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>1 si se ha completado. 0 si no. </dd></dl>
+
+</div>
+</div>
+<a id="a473624587e73af037cae039c56087cce" name="a473624587e73af037cae039c56087cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473624587e73af037cae039c56087cce">&#9670;&#160;</a></span>validarRango()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int validarRango </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prmNumero</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prmRangoInicial</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>prmRangoFinal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funcion para validar un numero en un rango dado. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prmNumero</td><td>recibe el numero a validar. </td></tr>
+    <tr><td class="paramname">prmRangoInicial</td><td>recibe el numero que inicia el rango. </td></tr>
+    <tr><td class="paramname">prmRangoFinal</td><td>recibe le numero que finaliza el rango.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>1 si el numero ingresado se encuentra en el rango. 0 si no. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

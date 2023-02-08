@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Fichero Fuente Ahorcado/Headers/libMap.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_62e8fbae76201fe23b37ae5da2767c6a.html">Headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">libMap.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="lib_map_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LIBMAP_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define LIBMAP_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Autor: javiersolanop</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">char</span>*** <a class="code hl_function" href="lib_map_8h.html#a4c856a9e696b4a2e9b4f16df16baaacc">dimensionarMap</a>(<span class="keywordtype">int</span> prmCantCampos);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">int</span> <a class="code hl_function" href="lib_map_8h.html#ab73c285e89a5a5e044536bdcde6957db">obtenerTamanioMap</a>(<span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">int</span> <a class="code hl_function" href="lib_map_8h.html#a189a4af2160ee5858dc531491ddd91a9">obtenerTamanioCaracteresMap</a>(<span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#adb89b4d403cc76797b6970924127dafd">agregarCampo</a>(<span class="keywordtype">char</span> ***prmMap, <span class="keywordtype">char</span> *prmCampo, <span class="keywordtype">char</span> *prmValor);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#aca5f24add5a4fefe27918eb1f3482662">obtenerValorMap</a>(<span class="keywordtype">char</span> ***prmMap, <span class="keywordtype">char</span> *prmCampo, <span class="keywordtype">char</span> *prmApuntador);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#a666640ee978909d8b5a184c97ed74e2f">imprimirMap</a>(<span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#a79cfa52eb56d14143e345f593bdcdc77">liberarDimensionMap</a>(<span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keywordtype">char</span>**** <a class="code hl_function" href="lib_map_8h.html#a4ff528ec96dc3976387b15af31bc5422">dimensionarMatrizMap</a>(<span class="keywordtype">int</span> prmCantMaps);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keywordtype">int</span> <a class="code hl_function" href="lib_map_8h.html#a61c4bbd3a45d21d195d1fef70e023df9">obtenerTamanioMatrizMap</a>(<span class="keywordtype">char</span> ****prmMatrizMap);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#a8894609fcc091c4ad249fe1154d30bc3">agregarMap</a>(<span class="keywordtype">char</span> ****prmMatrizMap, <span class="keywordtype">char</span> ***prmMap);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#aa06fb1e02cda000409585398c5b177ee">imprimirMatrizMap</a>(<span class="keywordtype">char</span> ****prmMatrizMap);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_map_8h.html#ad671252f8c92c376eef4242d454c8bee">liberarDimensionMatrizMap</a>(<span class="keywordtype">char</span> ****prmMatrizMap);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alib_map_8h_html_a189a4af2160ee5858dc531491ddd91a9"><div class="ttname"><a href="lib_map_8h.html#a189a4af2160ee5858dc531491ddd91a9">obtenerTamanioCaracteresMap</a></div><div class="ttdeci">int obtenerTamanioCaracteresMap(char ***prmMap)</div><div class="ttdoc">Funcion para obtener la cantidad de caracteres de todos los campos con sus rescpectivos valores en un...</div><div class="ttdef"><b>Definition:</b> libMap.c:24</div></div>
+<div class="ttc" id="alib_map_8h_html_a4c856a9e696b4a2e9b4f16df16baaacc"><div class="ttname"><a href="lib_map_8h.html#a4c856a9e696b4a2e9b4f16df16baaacc">dimensionarMap</a></div><div class="ttdeci">char *** dimensionarMap(int prmCantCampos)</div><div class="ttdoc">Funcion para dimensionar un arreglo de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:4</div></div>
+<div class="ttc" id="alib_map_8h_html_a4ff528ec96dc3976387b15af31bc5422"><div class="ttname"><a href="lib_map_8h.html#a4ff528ec96dc3976387b15af31bc5422">dimensionarMatrizMap</a></div><div class="ttdeci">char **** dimensionarMatrizMap(int prmCantMaps)</div><div class="ttdoc">Funcion para dimensionar una matriz de arreglos de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:95</div></div>
+<div class="ttc" id="alib_map_8h_html_a61c4bbd3a45d21d195d1fef70e023df9"><div class="ttname"><a href="lib_map_8h.html#a61c4bbd3a45d21d195d1fef70e023df9">obtenerTamanioMatrizMap</a></div><div class="ttdeci">int obtenerTamanioMatrizMap(char ****prmMatrizMap)</div><div class="ttdoc">Funcion para obtener la cantidad de arreglos que pasee una matriz de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:100</div></div>
+<div class="ttc" id="alib_map_8h_html_a666640ee978909d8b5a184c97ed74e2f"><div class="ttname"><a href="lib_map_8h.html#a666640ee978909d8b5a184c97ed74e2f">imprimirMap</a></div><div class="ttdeci">void imprimirMap(char ***prmMap)</div><div class="ttdoc">Funcion para imprimir todos los campos con sus respectivos valores de un arreglo de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:62</div></div>
+<div class="ttc" id="alib_map_8h_html_a79cfa52eb56d14143e345f593bdcdc77"><div class="ttname"><a href="lib_map_8h.html#a79cfa52eb56d14143e345f593bdcdc77">liberarDimensionMap</a></div><div class="ttdeci">void liberarDimensionMap(char ***prmMap)</div><div class="ttdoc">Funcion para liberar el espacio en memoria de un arreglo de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:81</div></div>
+<div class="ttc" id="alib_map_8h_html_a8894609fcc091c4ad249fe1154d30bc3"><div class="ttname"><a href="lib_map_8h.html#a8894609fcc091c4ad249fe1154d30bc3">agregarMap</a></div><div class="ttdeci">void agregarMap(char ****prmMatrizMap, char ***prmMap)</div><div class="ttdoc">Funcion para agregar un arreglo en en una matriz de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:115</div></div>
+<div class="ttc" id="alib_map_8h_html_aa06fb1e02cda000409585398c5b177ee"><div class="ttname"><a href="lib_map_8h.html#aa06fb1e02cda000409585398c5b177ee">imprimirMatrizMap</a></div><div class="ttdeci">void imprimirMatrizMap(char ****prmMatrizMap)</div><div class="ttdoc">Funcion para imprimir los arreglos de una matriz de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:121</div></div>
+<div class="ttc" id="alib_map_8h_html_ab73c285e89a5a5e044536bdcde6957db"><div class="ttname"><a href="lib_map_8h.html#ab73c285e89a5a5e044536bdcde6957db">obtenerTamanioMap</a></div><div class="ttdeci">int obtenerTamanioMap(char ***prmMap)</div><div class="ttdoc">Funcion para obtener el tamanio de un arreglo de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:9</div></div>
+<div class="ttc" id="alib_map_8h_html_aca5f24add5a4fefe27918eb1f3482662"><div class="ttname"><a href="lib_map_8h.html#aca5f24add5a4fefe27918eb1f3482662">obtenerValorMap</a></div><div class="ttdeci">void obtenerValorMap(char ***prmMap, char *prmCampo, char *prmApuntador)</div><div class="ttdoc">Funcion para obtener el valor de un campo en un arreglo de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:47</div></div>
+<div class="ttc" id="alib_map_8h_html_ad671252f8c92c376eef4242d454c8bee"><div class="ttname"><a href="lib_map_8h.html#ad671252f8c92c376eef4242d454c8bee">liberarDimensionMatrizMap</a></div><div class="ttdeci">void liberarDimensionMatrizMap(char ****prmMatrizMap)</div><div class="ttdoc">Funcion para liberar el espacio en memoria de una matriz de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:129</div></div>
+<div class="ttc" id="alib_map_8h_html_adb89b4d403cc76797b6970924127dafd"><div class="ttname"><a href="lib_map_8h.html#adb89b4d403cc76797b6970924127dafd">agregarCampo</a></div><div class="ttdeci">void agregarCampo(char ***prmMap, char *prmCampo, char *prmValor)</div><div class="ttdoc">Funcion para agregar un campo con su respectivo valor al arreglo de tipo 'Map'.</div><div class="ttdef"><b>Definition:</b> libMap.c:38</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

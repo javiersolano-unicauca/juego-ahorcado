@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Fichero Fuente Ahorcado/Headers/libcadena.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_62e8fbae76201fe23b37ae5da2767c6a.html">Headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">libcadena.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="libcadena_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LIBCADENA_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define LIBCADENA_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Autor: javiersolanop</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">char</span>* <a class="code hl_function" href="libcadena_8h.html#aed8660f060adcf0c416c6c709eb96b4f">dimensionarApuntadorCadena</a>(<span class="keywordtype">int</span> prmTamanio);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">char</span>** <a class="code hl_function" href="libcadena_8h.html#a5b34faafef19b761975da39bdbb373b0">dimensionarApuntadorDeApuntadorCadena</a>(<span class="keywordtype">int</span> prmTamanioApuntador, <span class="keywordtype">int</span> prmTamanioApuntadorCadena);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">char</span> **<a class="code hl_function" href="libcadena_8h.html#af27e9b581035c3e1a79e9c2754aac88d">dimensionarApuntadorDeApuntadorCadenaSinApuntadores</a>(<span class="keywordtype">int</span> prmTamanioApuntador);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#a3b5913c23b6c09a0be3fe7fb7c357f96">liberarDimensionApuntadorCadena</a>(<span class="keywordtype">char</span> *prmApuntador);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#ae4dd9c7e92b6568af6c0c7771c3b6167">liberarDimensionApuntadorDeApuntadorCadena</a>(<span class="keywordtype">char</span> **prmApuntador, <span class="keywordtype">int</span> prmTamanioApuntador);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">int</span> <a class="code hl_function" href="libcadena_8h.html#a597196e6a56045312be1c865ef9d606e">obtenerTamanioCadena</a>(<span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#a7e35c3f03077c31d903da0c6e9a56692">limpiarCadenaDeApuntador</a>(<span class="keywordtype">char</span>* prmCadena);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#a2fe6956fe1754c862bc0d030682886a9">depurarCadenaDeApuntador</a>(<span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#a66241731701aebbe50695e2a832acc8f">concatenarCadenaConCaracter</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracter, <span class="keywordtype">char</span> *prmCadenaNueva);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#aef079d8e2459f2e5e8188380ea80bf30">concatenarCadenas</a>(<span class="keywordtype">char</span> *prmCadena1, <span class="keywordtype">char</span>* prmCadena2, <span class="keywordtype">char</span> *prmCadenaNueva);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#af9617d314af2ccb7347115cb6e71c4de">repetirCaracter</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracter, <span class="keywordtype">int</span> *prmN);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keywordtype">int</span> <a class="code hl_function" href="libcadena_8h.html#a483ee85d9d4314f766e83a8d099920b5">validarCadenasIguales</a>(<span class="keywordtype">char</span> *prmCadena1, <span class="keywordtype">char</span> *prmCadena2);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#ae642569c6d0fc06858a45e3ba59d7dd1">eliminarCaracterDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracter, <span class="keywordtype">char</span> *prmNuevaCadena);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#ae640b2dd7e153f0696464c32abac1a19">extraerSubCadenaDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">int</span> prmIndice, <span class="keywordtype">char</span> *prmNuevaCadena);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#ac93500465ff9a3eeaa85c367940c191d">extraerSubCadenaDinamicaDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">int</span> prmIndiceInicial, <span class="keywordtype">int</span> prmIndiceFinal, <span class="keywordtype">char</span> *prmNuevaCadena);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#aca990464a0cb84f61d5c7101a9c7bb91">eliminarSubCadenaDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> *prmSubCadena, <span class="keywordtype">char</span> *prmNuevaCadena);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="keywordtype">int</span> <a class="code hl_function" href="libcadena_8h.html#a630be7ec318cc1c7f5963416a6620f22">encontrarIndiceCaracterDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="keywordtype">int</span>* <a class="code hl_function" href="libcadena_8h.html#a659aaf11c60020381dac0bc2f255a0cd">encontrarIndicesDeCaracterDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="keywordtype">int</span> <a class="code hl_function" href="libcadena_8h.html#a12d3f0701112d222d26b30ea70de38ea">contarCaracterRepetidoDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#aa94b09c493a0535e5b0af7111ff71ba8">recortarCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">int</span> prmIndice, <span class="keywordtype">char</span> *prmNuevaCadena);</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#a621f3819c45201977a2c537fab206627">clonarCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> *prmCadenaClonada);</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#adf373c9bc1e2862436f250ed9e56545f">reemplazarCaracteresDeEspacioDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">char</span> prmCaracterDeReemplazo);</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="keywordtype">void</span> <a class="code hl_function" href="libcadena_8h.html#ad31cd188cb55781d30f0fe4213ed1dda">reemplazarCaracterDeCadena</a>(<span class="keywordtype">char</span> *prmCadena, <span class="keywordtype">int</span> prmIndice, <span class="keywordtype">char</span> prmCaracter);</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alibcadena_8h_html_a12d3f0701112d222d26b30ea70de38ea"><div class="ttname"><a href="libcadena_8h.html#a12d3f0701112d222d26b30ea70de38ea">contarCaracterRepetidoDeCadena</a></div><div class="ttdeci">int contarCaracterRepetidoDeCadena(char *prmCadena, char prmCaracter)</div><div class="ttdoc">Funcion para contar las veces que se repite un caracter en un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:226</div></div>
+<div class="ttc" id="alibcadena_8h_html_a2fe6956fe1754c862bc0d030682886a9"><div class="ttname"><a href="libcadena_8h.html#a2fe6956fe1754c862bc0d030682886a9">depurarCadenaDeApuntador</a></div><div class="ttdeci">void depurarCadenaDeApuntador(char *prmCadena)</div><div class="ttdoc">Funcion para reinicializar las posiciones de un arreglo de tipo 'char'. En donde se encuentren caract...</div><div class="ttdef"><b>Definition:</b> libcadena.c:61</div></div>
+<div class="ttc" id="alibcadena_8h_html_a3b5913c23b6c09a0be3fe7fb7c357f96"><div class="ttname"><a href="libcadena_8h.html#a3b5913c23b6c09a0be3fe7fb7c357f96">liberarDimensionApuntadorCadena</a></div><div class="ttdeci">void liberarDimensionApuntadorCadena(char *prmApuntador)</div><div class="ttdoc">Funcion para liberar el espacio en memoria de un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:25</div></div>
+<div class="ttc" id="alibcadena_8h_html_a483ee85d9d4314f766e83a8d099920b5"><div class="ttname"><a href="libcadena_8h.html#a483ee85d9d4314f766e83a8d099920b5">validarCadenasIguales</a></div><div class="ttdeci">int validarCadenasIguales(char *prmCadena1, char *prmCadena2)</div><div class="ttdoc">Funcion para validar si dos arreglos de tipo 'char' poseen los mismos caracteres.</div><div class="ttdef"><b>Definition:</b> libcadena.c:118</div></div>
+<div class="ttc" id="alibcadena_8h_html_a597196e6a56045312be1c865ef9d606e"><div class="ttname"><a href="libcadena_8h.html#a597196e6a56045312be1c865ef9d606e">obtenerTamanioCadena</a></div><div class="ttdeci">int obtenerTamanioCadena(char *prmCadena)</div><div class="ttdoc">Funcion para obtener la cantidad de caracteres que tiene un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:38</div></div>
+<div class="ttc" id="alibcadena_8h_html_a5b34faafef19b761975da39bdbb373b0"><div class="ttname"><a href="libcadena_8h.html#a5b34faafef19b761975da39bdbb373b0">dimensionarApuntadorDeApuntadorCadena</a></div><div class="ttdeci">char ** dimensionarApuntadorDeApuntadorCadena(int prmTamanioApuntador, int prmTamanioApuntadorCadena)</div><div class="ttdoc">Funcion para dimensionar una matriz de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:10</div></div>
+<div class="ttc" id="alibcadena_8h_html_a621f3819c45201977a2c537fab206627"><div class="ttname"><a href="libcadena_8h.html#a621f3819c45201977a2c537fab206627">clonarCadena</a></div><div class="ttdeci">void clonarCadena(char *prmCadena, char *prmCadenaClonada)</div><div class="ttdoc">Funcion para copiar los caracteres de un arreglo de tipo 'char' en otro del mismo tipo.</div><div class="ttdef"><b>Definition:</b> libcadena.c:245</div></div>
+<div class="ttc" id="alibcadena_8h_html_a630be7ec318cc1c7f5963416a6620f22"><div class="ttname"><a href="libcadena_8h.html#a630be7ec318cc1c7f5963416a6620f22">encontrarIndiceCaracterDeCadena</a></div><div class="ttdeci">int encontrarIndiceCaracterDeCadena(char *prmCadena, char prmCaracter)</div><div class="ttdoc">Funcion parar buscar un caracter en un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:196</div></div>
+<div class="ttc" id="alibcadena_8h_html_a659aaf11c60020381dac0bc2f255a0cd"><div class="ttname"><a href="libcadena_8h.html#a659aaf11c60020381dac0bc2f255a0cd">encontrarIndicesDeCaracterDeCadena</a></div><div class="ttdeci">int * encontrarIndicesDeCaracterDeCadena(char *prmCadena, char prmCaracter)</div><div class="ttdoc">Funcion para encontrar los indices en los que se repite un caracter en una cadena.</div><div class="ttdef"><b>Definition:</b> libcadena.c:208</div></div>
+<div class="ttc" id="alibcadena_8h_html_a66241731701aebbe50695e2a832acc8f"><div class="ttname"><a href="libcadena_8h.html#a66241731701aebbe50695e2a832acc8f">concatenarCadenaConCaracter</a></div><div class="ttdeci">void concatenarCadenaConCaracter(char *prmCadena, char prmCaracter, char *prmCadenaNueva)</div><div class="ttdoc">Funcion para concatenar un arreglo de tipo 'char' con un caracter.</div><div class="ttdef"><b>Definition:</b> libcadena.c:72</div></div>
+<div class="ttc" id="alibcadena_8h_html_a7e35c3f03077c31d903da0c6e9a56692"><div class="ttname"><a href="libcadena_8h.html#a7e35c3f03077c31d903da0c6e9a56692">limpiarCadenaDeApuntador</a></div><div class="ttdeci">void limpiarCadenaDeApuntador(char *prmCadena)</div><div class="ttdoc">Funcion para reinicializar un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:53</div></div>
+<div class="ttc" id="alibcadena_8h_html_aa94b09c493a0535e5b0af7111ff71ba8"><div class="ttname"><a href="libcadena_8h.html#aa94b09c493a0535e5b0af7111ff71ba8">recortarCadena</a></div><div class="ttdeci">void recortarCadena(char *prmCadena, int prmIndice, char *prmNuevaCadena)</div><div class="ttdoc">Funcion para recortar un arreglo de tipo 'char'. Extrae los arreglos hasta el indice indicado.</div><div class="ttdef"><b>Definition:</b> libcadena.c:239</div></div>
+<div class="ttc" id="alibcadena_8h_html_ac93500465ff9a3eeaa85c367940c191d"><div class="ttname"><a href="libcadena_8h.html#ac93500465ff9a3eeaa85c367940c191d">extraerSubCadenaDinamicaDeCadena</a></div><div class="ttdeci">void extraerSubCadenaDinamicaDeCadena(char *prmCadena, int prmIndiceInicial, int prmIndiceFinal, char *prmNuevaCadena)</div><div class="ttdoc">Funcion para extraer caracteres de forma dinamica en un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:162</div></div>
+<div class="ttc" id="alibcadena_8h_html_aca990464a0cb84f61d5c7101a9c7bb91"><div class="ttname"><a href="libcadena_8h.html#aca990464a0cb84f61d5c7101a9c7bb91">eliminarSubCadenaDeCadena</a></div><div class="ttdeci">void eliminarSubCadenaDeCadena(char *prmCadena, char *prmSubCadena, char *prmNuevaCadena)</div><div class="ttdoc">Funcion para eliminar caracteres de un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:168</div></div>
+<div class="ttc" id="alibcadena_8h_html_ad31cd188cb55781d30f0fe4213ed1dda"><div class="ttname"><a href="libcadena_8h.html#ad31cd188cb55781d30f0fe4213ed1dda">reemplazarCaracterDeCadena</a></div><div class="ttdeci">void reemplazarCaracterDeCadena(char *prmCadena, int prmIndice, char prmCaracter)</div><div class="ttdoc">Funcion para reemplazar un caracter de un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:264</div></div>
+<div class="ttc" id="alibcadena_8h_html_adf373c9bc1e2862436f250ed9e56545f"><div class="ttname"><a href="libcadena_8h.html#adf373c9bc1e2862436f250ed9e56545f">reemplazarCaracteresDeEspacioDeCadena</a></div><div class="ttdeci">void reemplazarCaracteresDeEspacioDeCadena(char *prmCadena, char prmCaracterDeReemplazo)</div><div class="ttdoc">Funcion para reemplazar caracteres de espacio en un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:253</div></div>
+<div class="ttc" id="alibcadena_8h_html_ae4dd9c7e92b6568af6c0c7771c3b6167"><div class="ttname"><a href="libcadena_8h.html#ae4dd9c7e92b6568af6c0c7771c3b6167">liberarDimensionApuntadorDeApuntadorCadena</a></div><div class="ttdeci">void liberarDimensionApuntadorDeApuntadorCadena(char **prmApuntador, int prmTamanioApuntador)</div><div class="ttdoc">Funcion para liberar el espacio en memoria de una matriz de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:30</div></div>
+<div class="ttc" id="alibcadena_8h_html_ae640b2dd7e153f0696464c32abac1a19"><div class="ttname"><a href="libcadena_8h.html#ae640b2dd7e153f0696464c32abac1a19">extraerSubCadenaDeCadena</a></div><div class="ttdeci">void extraerSubCadenaDeCadena(char *prmCadena, int prmIndice, char *prmNuevaCadena)</div><div class="ttdoc">Funcion para extraer caracteres de un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:154</div></div>
+<div class="ttc" id="alibcadena_8h_html_ae642569c6d0fc06858a45e3ba59d7dd1"><div class="ttname"><a href="libcadena_8h.html#ae642569c6d0fc06858a45e3ba59d7dd1">eliminarCaracterDeCadena</a></div><div class="ttdeci">void eliminarCaracterDeCadena(char *prmCadena, char prmCaracter, char *prmNuevaCadena)</div><div class="ttdoc">Funcion para eliminar un caracter de un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:138</div></div>
+<div class="ttc" id="alibcadena_8h_html_aed8660f060adcf0c416c6c709eb96b4f"><div class="ttname"><a href="libcadena_8h.html#aed8660f060adcf0c416c6c709eb96b4f">dimensionarApuntadorCadena</a></div><div class="ttdeci">char * dimensionarApuntadorCadena(int prmTamanio)</div><div class="ttdoc">Funcion para dimensionar un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:5</div></div>
+<div class="ttc" id="alibcadena_8h_html_aef079d8e2459f2e5e8188380ea80bf30"><div class="ttname"><a href="libcadena_8h.html#aef079d8e2459f2e5e8188380ea80bf30">concatenarCadenas</a></div><div class="ttdeci">void concatenarCadenas(char *prmCadena1, char *prmCadena2, char *prmCadenaNueva)</div><div class="ttdoc">Funcion para concatenar dos arreglos de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:82</div></div>
+<div class="ttc" id="alibcadena_8h_html_af27e9b581035c3e1a79e9c2754aac88d"><div class="ttname"><a href="libcadena_8h.html#af27e9b581035c3e1a79e9c2754aac88d">dimensionarApuntadorDeApuntadorCadenaSinApuntadores</a></div><div class="ttdeci">char ** dimensionarApuntadorDeApuntadorCadenaSinApuntadores(int prmTamanioApuntador)</div><div class="ttdoc">Funcion para dimensionar una matriz de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:20</div></div>
+<div class="ttc" id="alibcadena_8h_html_af9617d314af2ccb7347115cb6e71c4de"><div class="ttname"><a href="libcadena_8h.html#af9617d314af2ccb7347115cb6e71c4de">repetirCaracter</a></div><div class="ttdeci">void repetirCaracter(char *prmCadena, char prmCaracter, int *prmN)</div><div class="ttdoc">Funcion para repetir un caracter en un arreglo de tipo 'char'.</div><div class="ttdef"><b>Definition:</b> libcadena.c:112</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

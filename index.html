@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Del Ahorcado</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+        }
+        header {
+            width: 100%;
+            height: 20%;
+            display: flex;
+        }
+        header .contenedor-escudo {
+            width: 10%;
+            height: 100%;
+        }
+        header .contenedor-escudo img {
+            width: 100%;
+            height: 100%;
+        }
+        header .titulo {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:#1F2B81
+        }
+        header .titulo h1 {
+            font-size: 300%;
+            color: white;
+        }
+        article {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        article .seccion-izquierda {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        article .seccion-izquierda p {
+            width: 90%;
+            height: 20%;
+            font-size: 250%;
+        }
+        article .seccion-izquierda ul {
+            width: 90%;
+            height: 80%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        article .seccion-izquierda ul li {
+            width: 100%;
+            height: 20%;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        article .seccion-izquierda ul li .imagen {
+            width: 15%;
+            height: 100%;
+            background-color: #b3231c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.5rem;
+        }
+        article .seccion-izquierda ul li .imagen img {
+            width: 60%;
+            height: 70%;
+        }
+        article .seccion-izquierda ul li a{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 150%;
+            color: #2d99ca;
+        }
+        article .seccion-izquierda ul li button {
+            width: 76%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 140%;
+            color: #2d99ca;
+            cursor: pointer;
+            text-decoration:underline;
+            background-color: transparent;
+            border: none;
+        }
+        article .seccion-derecha {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        article .seccion-derecha video {
+            width: 90%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="contenedor-escudo">
+            <img src="./Recursos/escudo-nuevo-sitio.jpg" alt="">
+        </div>
+        <div class="titulo">
+            <h1>JUEGO DEL AHORCADO</h1>
+        </div>
+    </header>
+    <article>
+        <section class="seccion-izquierda">
+            <p>Lista de opciones:</p>
+            <ul id="body">
+                <li>
+                    <div class="imagen">
+                        <img src="./Recursos/documentacion.png" alt="Documentacion">
+                    </div>
+                    <a href="./Recursos/Ahorcado/Documentacion/docs/html/index.html" title="Link de la documentacion" target="_blank">Ver documentacion</a>
+                </li>
+                <li>
+                    <div class="imagen">
+                        <img src="./Recursos/codigo fuente.png" alt="Codigo fuente">
+                    </div>
+                    <a href="./Recursos/JAVIER MAURICIO SOLANO PAEZ - CESAR DANIEL LOPEZ LOPEZ.rar" title="Descargar codigo fuente" download>Descargar codigo fuente</a>
+                </li>
+                <li>
+                    <div class="imagen">
+                        <img src="./Recursos/video.png" alt="Ejecutable">
+                    </div>
+                    <button onclick="correrVideo()">Ver video demostracion</button>
+                </li>
+                <li>
+                    <div class="imagen">
+                        <img src="./Recursos/ejecutable.png" alt="Ejecutable">
+                    </div>
+                    <a href="./Recursos/Ahorcado/Ahorcado.rar" title="Descargar la aplicacion">Descargar ejecutable</a>
+                </li>
+            </ul>
+        </section>
+        <section class="seccion-derecha">
+            <video id="video" src="./Recursos/Ahorcado/Video-Ahorcado.mp4" autoplay loop></video>
+        </section>
+    </article>
+    <script>
+
+        function correrVideo(){
+            var objVideo = document.getElementById('video');
+            objVideo.play();
+        }
+
+    </script>
+</body>
+</html>

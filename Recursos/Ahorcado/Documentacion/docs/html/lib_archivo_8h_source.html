@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ahorcado: Fichero Fuente Ahorcado/Headers/libArchivo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Ahorcado
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8cf6028d4ee273b48534345d3bba0ed8.html">Ahorcado</a></li><li class="navelem"><a class="el" href="dir_62e8fbae76201fe23b37ae5da2767c6a.html">Headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">libArchivo.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="lib_archivo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LIBARCHIVO_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define LIBARCHIVO_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// Autor: javiersolanop</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#ae1acf5b26dd15e832cc9ff1f570d0ba2">crearArchivo</a>(<span class="keywordtype">char</span> *prmDireccion);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>FILE* <a class="code hl_function" href="lib_archivo_8h.html#a2b35eb79703062a13520b6236e330d95">abrirArchivo</a>(<span class="keywordtype">char</span> *prmDireccion);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#ae5c81f959faf27d5589cc3bd400c1f71">cerrarArchivo</a>(FILE *prmArchivo);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#ab1b702858bb8460e599b525739cbc26e">escribirArchivo</a>(<span class="keywordtype">char</span> *prmArchivo, <span class="keywordtype">char</span> *prmCadena);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#aa0f7e42c98396ad979a446740bb5dc3f">escribirArchivoEnBloque</a>(<span class="keywordtype">char</span> *prmArchivo, <span class="keywordtype">char</span> **prmBloque, <span class="keywordtype">int</span> prmCantLineas);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#a831f703674a11888e3fa8a2bdf3c4578">eliminarArchivo</a>(<span class="keywordtype">char</span> *prmArchivo);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#a35a15fa0a5d2dd04c4a26148c2831389">vaciarArchivo</a>(<span class="keywordtype">char</span> *prmArchivo);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#a6a98ba95ade00eb5808d194e042c3031">reescribirArchivoEnBloque</a>(<span class="keywordtype">char</span> *prmArchivo, <span class="keywordtype">char</span> **prmBloque, <span class="keywordtype">int</span> prmCantLineas);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keywordtype">int</span> <a class="code hl_function" href="lib_archivo_8h.html#ab700f857d5e92da8a0b8c2e243d818e2">obtenerContenidoArchivo</a>(<span class="keywordtype">char</span> *prmArchivo, <span class="keywordtype">char</span> **prmApuntador);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keywordtype">void</span> <a class="code hl_function" href="lib_archivo_8h.html#adfe21c84097f7493b8bbffed5970f1cb">imprimirArchivo</a>(<span class="keywordtype">char</span> *prmArchivo, <span class="keywordtype">int</span> prmCantChar);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alib_archivo_8h_html_a2b35eb79703062a13520b6236e330d95"><div class="ttname"><a href="lib_archivo_8h.html#a2b35eb79703062a13520b6236e330d95">abrirArchivo</a></div><div class="ttdeci">FILE * abrirArchivo(char *prmDireccion)</div><div class="ttdoc">Funcion para abrir un archivo en modo lectura y escritura.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:9</div></div>
+<div class="ttc" id="alib_archivo_8h_html_a35a15fa0a5d2dd04c4a26148c2831389"><div class="ttname"><a href="lib_archivo_8h.html#a35a15fa0a5d2dd04c4a26148c2831389">vaciarArchivo</a></div><div class="ttdeci">void vaciarArchivo(char *prmArchivo)</div><div class="ttdoc">Funcion para vaciar el contenido de un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:43</div></div>
+<div class="ttc" id="alib_archivo_8h_html_a6a98ba95ade00eb5808d194e042c3031"><div class="ttname"><a href="lib_archivo_8h.html#a6a98ba95ade00eb5808d194e042c3031">reescribirArchivoEnBloque</a></div><div class="ttdeci">void reescribirArchivoEnBloque(char *prmArchivo, char **prmBloque, int prmCantLineas)</div><div class="ttdoc">Funcion para reescribir el contenido de un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:49</div></div>
+<div class="ttc" id="alib_archivo_8h_html_a831f703674a11888e3fa8a2bdf3c4578"><div class="ttname"><a href="lib_archivo_8h.html#a831f703674a11888e3fa8a2bdf3c4578">eliminarArchivo</a></div><div class="ttdeci">void eliminarArchivo(char *prmArchivo)</div><div class="ttdoc">Funcion para eliminar un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:38</div></div>
+<div class="ttc" id="alib_archivo_8h_html_aa0f7e42c98396ad979a446740bb5dc3f"><div class="ttname"><a href="lib_archivo_8h.html#aa0f7e42c98396ad979a446740bb5dc3f">escribirArchivoEnBloque</a></div><div class="ttdeci">void escribirArchivoEnBloque(char *prmArchivo, char **prmBloque, int prmCantLineas)</div><div class="ttdoc">Funcion para escribir un bloque de lineas.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:28</div></div>
+<div class="ttc" id="alib_archivo_8h_html_ab1b702858bb8460e599b525739cbc26e"><div class="ttname"><a href="lib_archivo_8h.html#ab1b702858bb8460e599b525739cbc26e">escribirArchivo</a></div><div class="ttdeci">void escribirArchivo(char *prmArchivo, char *prmCadena)</div><div class="ttdoc">Funcion para escribir en un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:19</div></div>
+<div class="ttc" id="alib_archivo_8h_html_ab700f857d5e92da8a0b8c2e243d818e2"><div class="ttname"><a href="lib_archivo_8h.html#ab700f857d5e92da8a0b8c2e243d818e2">obtenerContenidoArchivo</a></div><div class="ttdeci">int obtenerContenidoArchivo(char *prmArchivo, char **prmApuntador)</div><div class="ttdoc">Funcion para obtener el contenido de un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:57</div></div>
+<div class="ttc" id="alib_archivo_8h_html_adfe21c84097f7493b8bbffed5970f1cb"><div class="ttname"><a href="lib_archivo_8h.html#adfe21c84097f7493b8bbffed5970f1cb">imprimirArchivo</a></div><div class="ttdeci">void imprimirArchivo(char *prmArchivo, int prmCantChar)</div><div class="ttdoc">Funcion para imprimir el contenido de un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:74</div></div>
+<div class="ttc" id="alib_archivo_8h_html_ae1acf5b26dd15e832cc9ff1f570d0ba2"><div class="ttname"><a href="lib_archivo_8h.html#ae1acf5b26dd15e832cc9ff1f570d0ba2">crearArchivo</a></div><div class="ttdeci">void crearArchivo(char *prmDireccion)</div><div class="ttdoc">Funcion para crear un archivo de texto plano.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:4</div></div>
+<div class="ttc" id="alib_archivo_8h_html_ae5c81f959faf27d5589cc3bd400c1f71"><div class="ttname"><a href="lib_archivo_8h.html#ae5c81f959faf27d5589cc3bd400c1f71">cerrarArchivo</a></div><div class="ttdeci">void cerrarArchivo(FILE *prmArchivo)</div><div class="ttdoc">Funcion para cerrar un archivo.</div><div class="ttdef"><b>Definition:</b> libArchivo.c:14</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>
